@@ -19,3 +19,21 @@
     - Universal 2nd Factor (U2F) security key (YubiKey by Yubico)
     - Hardware Key Fob MFA Device (Gemalto)
     - Hardware MFA Key Fob Device for AWS GovCloud (US) (SurepassID)
+
+# AWS CLI & SDK
+- AWS CLI = Command Line Interface / alternative to using the console
+- SDK = Software Development Kit /language specific APIs enables you to also interact with AWS via code embbed within your application
+- Mobile SDK's & Iot SDK's are also available
+## Note:
+    - You can use cloud shell to run AWS CLI commands and you have a whole directory to work with you can upload and download files which could be useful 
+
+# IAM Roles
+- Its like permissions for AWS services rather than users
+- you can assign roles to AWS resources
+- Example: EC2 instances, Lambda functions, CloudFormation, etc
+
+# IAM Security Tools
+- IAM Credentials report (Account level)
+    - List all your account users and the status of their various credentials
+- IAM Access Advisor (User level)
+    - Shows service permissions granted to a user and when those services were last accessed
