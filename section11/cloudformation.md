@@ -40,3 +40,18 @@
     - Private Git repositories
     - No size limit on repositories
     - CodeCommit eliminates the need to operate your own source control system or worry about scaling its infrastructure
+# Code star
+    - this is a one stop shop for project on AWS combines all the stuff above plus more into one place
+    - You can edit the code directly in the cloud with AWS Cloud9
+# SSM  
+    - System Manager, hybrid service 
+    - get operational insights about your infrastructure
+    - EXAM: anytime you see a way to patch your fleet of EC2 instances, or run commmands consistently across all servers think SSM
+    - 
+# Systems manager 
+    - Allows you to start a securew shell on EC2 and on premise servers without needing to open up SSH ports
+    - All managed EC2 instances will be in fleet manager
+    - you have to have an IAM role on the EC2 instance to use SSM
+# OpsWorks
+    - Involve Chef and Puppet which help you perform server configuration automatically, or repetitive actions such as installing packages, deploying code, etc
+    - 
